@@ -1,25 +1,15 @@
-# Web Framework & Server
 fastapi
 uvicorn
-python-multipart    # Required to parse Twilio's x-www-form-urlencoded webhooks
-
-# Environment & HTTP Clients
-python-dotenv
-httpx               # Used by Ananya's media.py for async media downloads
-requests            # Used for basic API requests
-twilio              # Twilio Python SDK for sending outbound WhatsApp messages
-
-# AI & LangGraph State Machine
-langchain
-langchain-core
+twilio
 langgraph
-langchain-groq      # LangChain wrapper for Groq models
-groq                # Groq official SDK (used for Whisper STT)
-
-# Speech & Media Processing (Voice-First)
-edge-tts            # Bhuvan's Text-to-Speech engine
-
-# OCR & Document Processing
-opencv-python       # OpenCV for image preprocessing
-pytesseract         # Tesseract wrapper for extracting text from Aadhaar/Land documents
+langchain-groq
+langchain-core
 faster-whisper
+edge-tts
+beautifulsoup4
+requests
+pytesseract
+opencv-python
+Pillow
+numpy
+python-dotenv
